@@ -8,9 +8,9 @@ public class escola {
 		Scanner sc = new Scanner(System.in);
 		String aluno;
 		String professor;
-		float nota1;
-		float nota2;
-		float media;
+		double nota1;
+		double nota2;
+		double media;
 		
 		System.out.println("Digite o nome do seu professor: ");
 		professor = sc.nextLine();
@@ -19,10 +19,10 @@ public class escola {
 		aluno = sc.nextLine();
 		
 		System.out.println("Digite a nota do 1 semestre: ");
-		nota1 = sc.nextFloat();
+		nota1 = sc.nextDouble();
 		
 		System.out.println("Digite a nota do 2 semestre: ");
-		nota2 = sc.nextFloat();
+		nota2 = sc.nextDouble();
 		
 		media = (nota1 + nota2)/2;
 		
@@ -32,8 +32,6 @@ public class escola {
 		System.out.println("Nota do 2 semestre: " + nota2);
 		System.out.println("Sua media do ano: " + media);
 		System.out.println("------Obrigado pelo seu acesso------");
-		
-		
 		
 		sc.close();
 		
